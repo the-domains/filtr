@@ -1,28 +1,40 @@
-name: filtr
 favicon: null
-layout_spectrum: 0.49576
-typography_spectrum: 0.35454
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: filtr
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#ffffff'
-    - '#415965'
-    - '#55bdda'
-    - '#9ca8af'
-    - '#8761aa'
+  saturation: 0.5
   brandStrength: 0.125
   lightness: 0.6875
-  saturation: 0.5
+  brandColors:
+    - '#FFFFFF'
+    - '#415965'
+    - '#5DA3D1'
+    - '#8664AC'
+    - '#D0D5D8'
   rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 0.5276596
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
