@@ -1,7 +1,7 @@
 name: filtr
 favicon: null
-layout_spectrum: 0.25889
-typography_spectrum: 0.5276596
+layout_spectrum: 0.26843
+typography_spectrum: 0.349
 collections:
   - index:
       path: /
